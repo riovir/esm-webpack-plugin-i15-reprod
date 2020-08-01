@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Consumer</title>
+</head>
+<body>
+	<h1>I'm in a separate codebase, consuming the ESM module</h1>
+	<p>
+		To trigger the bug, edit the webpack.config.js devServer by setting
+		<code>hot: true</code>.
+	</p>
+	<nav>
+		<a href="/inline">Show inline component</a>
+		<a href="/split">Show code-split component</a>
+	</nav>
+	<div id="app"></div>
+	<script type="module" src="/main.js"></script>
+</body>
+</html>

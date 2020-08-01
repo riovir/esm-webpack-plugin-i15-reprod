@@ -1,0 +1,21 @@
+# Dependency directories
+node_modules/
+
+# NPM cache directory
+.npm/
+
+# Distribution
+dist/
+
+# GitLab Pages
+public/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# IDEs
+
+## Visual Studio Code / local history plugin
+.history/
